@@ -24,7 +24,7 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5209980624"))
     SESSION_NAME = "Uploader_Extra_bot"
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
